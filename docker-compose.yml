@@ -2,6 +2,8 @@ version: "3"
 services:
   calculator:
     build: calculator/
+    ports:
+      - "8080:8080"
   elk:
     build: elk/
     ports:
